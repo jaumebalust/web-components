@@ -41,7 +41,6 @@ class Tooltip extends HTMLElement{
     }
     _hideTooltip(){
         this.shadowRoot.removeChild(this._tooltipContainer)
-
     }
 
 }
