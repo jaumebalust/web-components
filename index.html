@@ -5,18 +5,23 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Components</title>
-    <script src="importjs/tooltip.js"></script>
-    <script src="importjs/confirm-link.js"></script>
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            margin:2rem;
+            font-family: sans-serif;
+        }
+    </style>
+    <script src="importjs/modal.js"></script>
 </head>
 <body>
-
-    <p><ak-tooltip text="Web Components is a set of standards">Web Components</ak-tooltip>are awesome</p>
-    <p><ak-tooltip >Second</ak-tooltip></p>
-    <p><ak-tooltip ></ak-tooltip></p>
-<div>other div </div>
-
-    <a href="google.com" is="ak-confirm-link">go to google</a>
+<uc-modal>
+<p>With your confirmation you agree to pay the full amount.</p>
+</uc-modal>
+<p>This is not part of the modal</p>
 
 </body>
 </html>
