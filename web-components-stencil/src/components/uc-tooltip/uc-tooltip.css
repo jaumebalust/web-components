@@ -1,0 +1,15 @@
+
+
+ .uc-tooltip{
+   color: red;
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+   transition: opacity 0.5s ease-out;
+}
+
+:host([opened]) .uc-tooltip{
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+}

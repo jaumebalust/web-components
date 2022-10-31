@@ -1,0 +1,29 @@
+/*over all element*/
+:host{
+  font-family: sans-serif;
+  padding: 50px;
+  border: 2px solid purple;
+  display: block;
+  width:300px;
+  max-width: 50%;
+  margin: 20px;
+}
+
+ul{
+  margin:0;
+  padding-left: 0px;
+  list-style: none;
+}
+
+li{
+  margin:0.25rem 0;
+  padding: 0.25rem ;
+  border: 1px solid lightblue;
+}
+
+li:hover,
+li:active{
+  background: purple;
+  color: white;
+  cursor: pointer;
+}

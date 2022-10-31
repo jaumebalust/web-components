@@ -1,0 +1,16 @@
+/*over all element*/
+:host{
+  font-family: sans-serif;
+  padding: 50px;
+  background: #97c3d7;
+  border: 2px solid var(--color-primary,purple);
+  display: block;
+  width:300px;
+  max-width: 50%;
+  margin: 20px;
+}
+
+:host(.error){
+  border-color: orange;
+}
+
